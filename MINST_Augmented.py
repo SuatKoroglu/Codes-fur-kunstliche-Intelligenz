@@ -66,3 +66,6 @@ accuracy = grid_search.score(X_test, y_test)
 
 # Print the test accuracy
 print("Test accuracy: ", accuracy)
+
+#Best hyperparameters:  {'n_neighbors': 3, 'weights': 'distance'}
+#Test accuracy:  0.946
